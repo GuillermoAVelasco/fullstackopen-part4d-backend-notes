@@ -1,0 +1,21 @@
+POST  http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization:  bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYxOTE2ZWNjNDZmYmNlMTc4ZmEyOTExYiIsImlhdCI6MTYzNjkyMTI4MH0.rUxO--FpAA8L8yl1y3o-5Uv5DrUC4PVlIrD8XiJJt5w
+
+{
+    "content":"Prueba de carga de notas 3",
+    "important":false,
+    "id":"61915fb882a2070f24b7fed0"
+}
+
+###
+
+POST  http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization:  bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2MTkxNzA2OWI4OTk5ZWIzMWMxZGFmMTYiLCJpYXQiOjE2MzY5MjE0NTd9.5gGM0WuzoGxiwda08rzjIb2A1cG9MYQo0q4SFj0fcxw
+
+{
+    "content":"Prueba de carga de notas 1",
+    "important":false,
+    "id":"61917069b8999eb31c1daf16"
+}
